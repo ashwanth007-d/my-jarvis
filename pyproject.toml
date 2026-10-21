@@ -6,7 +6,6 @@ build-backend = "hatchling.build"
 name = "OpenJarvis"
 dynamic = ["version"]
 description = "OpenJarvis — modular AI assistant backend with composable intelligence primitives"
-readme = "README.md"
 # Upper bound: numpy 2.2.x (pinned transitively via datasets/pandas) ships no
 # cp314 Windows wheel, so under Python 3.14 uv would compile numpy from source
 # (Meson) and fail on Windows boxes without a C toolchain (#350). Cap to the
